@@ -150,6 +150,7 @@ public class Main {
         for (int i = 0; i < size; i++) {
             array[i]=random.nextInt(100)+1;
         }
+        System.out.println("Массив:");
         System.out.println(Arrays.toString(array));
         int min=array[0];
         int max=array[0];
