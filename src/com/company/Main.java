@@ -1,4 +1,4 @@
-denisoij yourdan, [04.04.2022 14:34]
+
 package com.company;
 
 import java.util.Arrays;
@@ -123,9 +123,7 @@ public class Main {
         int index4 = 0;
         for (int i = 0; i < SIZE1; i++) {
             if (array1[i] % 2 == 0) {
-
-denisoij yourdan, [04.04.2022 14:34]
-array2[index2] = array1[i];
+                array2[index2] = array1[i];
                 index2++;
             }
             if (array1[i] % 5 == 0) {
